@@ -1,0 +1,157 @@
+/*
+Theme Name: Pixsens Template
+Theme URI: http://lt.pixsens.co.uk
+Author: Pixsens team
+Author URI: http://lt.pixsens.co.uk
+Description: Theme for a Pixsens team
+Version: 1.0
+License: All good
+License URI: http://lt.pixesns.co.uk
+Tags: Pixsens team theme
+Text Domain: pixsens-theme
+
+This theme is Pixsens's property. 
+*/
+
+body {
+	width: 82%;
+	margin: 70px auto 0;
+	padding: 0;
+	background: url(img/main-background.jpg) no-repeat fixed center;
+	font-family: 'Open Sans';
+/*	margin: 70px 8.85% 0; */
+}
+
+header {
+	width: 100%;
+	font-weight: 300;
+	display: block;
+	height: 32px;
+}
+
+.head-logo {
+	display: inline-block;
+	float: left;
+}
+
+.main-nav {
+	color: white;
+	font-size: 20px;
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	margin: 0;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.main-nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+/*	background-color: white;
+	opacity: 0.1;*/
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.horizontal-container {
+	width: 100%;
+	height: 340px;
+	display: block;
+	margin-top: 50px;
+}
+
+.icon-text {
+	width: 390px;
+	height: 340px;
+/*	background-color: black;*/
+	display: inline-block;
+}
+
+.icon-header {
+	font-weight: 700;
+	font-size: 26px;
+	display: block;
+	margin: 0;
+}
+
+.icon-image {
+	max-width: 345px;
+	max-height: 320px;
+}
+
+.text {
+	width: 100%;
+	height: auto;
+	color: white;
+	font-size: 22px;
+	margin-top: 25px;
+	display: none;
+}
+
+.second-text {
+	text-align: right;
+	margin-top: 60px;
+}
+
+.fourth-text {
+	text-align: right;
+	margin-top: 60px;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.green {
+	color: rgb(40,239,36);
+}
+
+.blue {
+	color: rgb(4,165,230);
+}
+
+.orange {
+	color: rgb(250,208,0);
+}
+
+.pink {
+	color: rgb(232,28,78);
+}
+
+.electric {
+	color: rgb(0,224,230);
+}
+
+.center-text {
+	color: white;
+	width: 530px;
+	height: auto;
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center-p {
+	font-size: 22px;
+}
