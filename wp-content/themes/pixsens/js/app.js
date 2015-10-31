@@ -1,3 +1,4 @@
+/*
 jQuery( document ).ready(function() {
 	jQuery('.first-icon')
 		.mouseenter(function() {
@@ -42,3 +43,4 @@ jQuery( document ).ready(function() {
 		});
 
 });
+*/

@@ -29,6 +29,8 @@ function pix_theme_styles() {
 
 	wp_enqueue_style( 'main_font', 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
 
+	wp_enqueue_style( 'second_font', 'https://fonts.googleapis.com/css?family=Quicksand:300');
+
 }
 add_action('wp_enqueue_scripts', 'pix_theme_styles');
 
